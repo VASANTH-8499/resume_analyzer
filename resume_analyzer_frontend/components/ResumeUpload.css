@@ -1,0 +1,111 @@
+ /* Card UI */
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 40px;
+  width: 500px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  color: white;
+}
+
+/* Title */
+.title {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+/* Dropdown */
+.dropdown {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* File Input */
+.file-input {
+  margin: 20px 0;
+  color: white;
+}
+
+/* File Name */
+.file-name {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #ffd369;
+}
+
+/* Button */
+.analyze-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(45deg, #ff7a18, #ffb347);
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.analyze-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #ff6a00, #ffa500);
+}
+
+/* Result Card */
+.result-card {
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.25);
+  text-align: left;
+}
+
+/* Score */
+.score {
+  font-size: 26px;
+  font-weight: bold;
+  color: #00ffcc;
+  margin-bottom: 15px;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #ffd369;
+}
+
+/* Text */
+.content-text {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+}
